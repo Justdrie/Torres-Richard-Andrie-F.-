@@ -11,12 +11,22 @@ body{
     border-radius:12px;
     text-align:center;
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .profile-img{
     width:150px;
-    height:150px;
+    height:auto;
     border-radius:50%;
-    object-fit:cover;
     margin-bottom:15px;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover{
+    transform: rotate(5deg) scale(1.1);
 }

@@ -10,4 +10,10 @@ body{
     padding:30px;
     border-radius:12px;
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }

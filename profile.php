@@ -56,6 +56,7 @@ move_uploaded_file($image_tmp, $upload_folder . $image_name);
             </p>
 
             <a href="index.php" class="btn btn-secondary mt-3">Create Another Profile</a>
+            <a href="index.php" class="btn btn-primary mt-3">Go Back to Form</a>
         </div>
         </div>
     </div>
