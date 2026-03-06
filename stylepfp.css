@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right,#ff758c,#ff7eb3);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.profile-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
