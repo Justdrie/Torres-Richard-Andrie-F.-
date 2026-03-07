@@ -62,6 +62,7 @@
                         <input type="file" name="profile_image" class="form-control" required>
                     </div>
                     <button class="btn btn-primary w-100">Create Profile</button>
+                    <button class="btn btn-secondary w-100 mt-2" type="reset">Reset</button>
                 </form>
             </div>
         </div>
